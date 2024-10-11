@@ -1,6 +1,6 @@
 # BNN_python
 
-#Software Simulation of a binarized neural network to implement on Xilinx PyNQ Board.
+# Software Simulation of a binarized neural network to implement on Xilinx PyNQ Board.
 
 Algorithm implemented can be found here: https://arxiv.org/pdf/1602.02830
 
