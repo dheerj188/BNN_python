@@ -1,7 +1,7 @@
 import numpy as np 
 import random
 
-
+### Creating a Custom Clip function for BNN activation
 def clip(x):
     y=np.array([[0 for i in range(x[0])] for i in range(x)])
     for i in range(len(x)):
@@ -23,6 +23,7 @@ def ReLU(x):
     else: 
         return 0
 
+### numpy version of MSE
 def MSE_loss(y,yd):
     L=np.array([0 for i in range(len(y))])
     for i in range(len(y)):
@@ -31,7 +32,7 @@ def MSE_loss(y,yd):
 
 
         
-
+### BNN Behaviour definition
 class BNN:
     def __init__(self,weights):
         self.weights=weights
